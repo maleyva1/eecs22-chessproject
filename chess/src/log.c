@@ -1,21 +1,6 @@
 #include "log.h"
 #include "MoveList.h"
 
-/*void printLog(MoveList *list)
-{
-    MoveEntry *e;
-    Move *move = NULL;
-    assert(list);
-    e = list->mostRecentmove;
-    for (int = 0; i < 6; i++)
-    {
-        printf("%d%d to %d%d  ", move->Ybefore, move->Xbefore, move->Yafter, move->Xafter);
-                
-        e = e->prev;
-    }
-
-}*/
-
 void printToFile(MoveList *list)
 {
    if(!list)

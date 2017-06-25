@@ -40,10 +40,13 @@ BOARD *createboard(){
     return p;
 }
 
-void copyboard(BOARD *board,BOARD *board2){
+void copyboard(BOARD *board,BOARD *board2)
+{
     int x,y;
-    for (x=0;x<8;x++){
-        for(y=0;y<8;y++){
+    for (x=0;x<8;x++)
+    {
+        for(y=0;y<8;y++)
+        {
             board->board[x+(y*8)]=board2->board[x+(y*8)];
             
         }

@@ -6,8 +6,6 @@
 #include "Move.h"
 
 /* Original author: Mark Leyva */
-/* ID: 25662446                */
-
 
 typedef struct MList MoveList;
 typedef struct MEntry MoveEntry;
